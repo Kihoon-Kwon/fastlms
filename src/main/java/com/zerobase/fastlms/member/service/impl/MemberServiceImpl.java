@@ -262,6 +262,7 @@ public class MemberServiceImpl implements MemberService {
         return new User(member.getUserId(), member.getPassword(), grantedAuthorities);
     }
 
+    /*
     @Override
     public LocalDateTime loginHistory(MemberParam loginDt) {
 
@@ -278,7 +279,7 @@ public class MemberServiceImpl implements MemberService {
 
         return member.getLoginDt();
     }
-
+*/
 
 }
 

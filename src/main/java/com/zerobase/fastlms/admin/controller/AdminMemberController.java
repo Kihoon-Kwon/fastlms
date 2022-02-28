@@ -26,7 +26,7 @@ public class AdminMemberController extends BaseController {
     public String list(Model model, MemberParam parameter, HttpServletRequest request) {
 
         //String loginDt = request.getParameter("login");
-        String loginDt = String.valueOf(memberService.loginHistory(parameter));
+       // String loginDt = String.valueOf(memberService.loginHistory(parameter));
         parameter.init();
         List<MemberDto> members = memberService.list(parameter);
 
@@ -41,7 +41,7 @@ public class AdminMemberController extends BaseController {
         model.addAttribute("list", members);
         model.addAttribute("totalCount", totalCount);
         model.addAttribute("pager", pagerHtml);
-        model.addAttribute("loginDt",loginDt);
+        //model.addAttribute("loginDt",loginDt);
 
         return "admin/member/list";
     }

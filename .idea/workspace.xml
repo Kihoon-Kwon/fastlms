@@ -4,11 +4,134 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aa33355-1815-4dce-b917-895cc3fe508c" name="변경" comment="" />
+    <list default="true" id="2aa33355-1815-4dce-b917-895cc3fe508c" name="변경" comment="변경">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/common/model/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/common/model/ResponseResultHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/controller/AdminTakeCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/controller/ApiCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/dto/TakeCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/entity/TakeCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/entity/TakeCourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/mapper/TakeCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/ServiceResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/TakeCourseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/TakeCourseParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/repository/TakeCourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/TakeCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/TakeCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/TakeCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/course/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/course/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bb476deb-644e-4c88-9e06-d4b819fdff61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bb476deb-644e-4c88-9e06-d4b819fdff61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/controller/AdminMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/controller/AdminMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/admin/service/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/dto/CourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/dto/CourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/CourseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/CourseInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/CourseParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/model/CourseParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/course/service/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/course/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/course/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/FastlmsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/controller/AdminCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/controller/AdminMainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/controller/AdminMemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/dto/CategoryDto$CategoryDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/dto/CategoryDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/dto/MemberDto$MemberDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/dto/MemberDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/entity/Category$CategoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/mapper/MemberMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/model/CategoryInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/model/CommonParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/model/MemberInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/model/MemberParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/admin/service/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/components/MailComponents$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/components/MailComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/configuration/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/configuration/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/configuration/UserAuthenticationFailureHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/controller/AdminCourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/dto/CourseDto$CourseDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/dto/CourseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/entity/Course$CourseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/mapper/CourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/model/CourseInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/model/CourseParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/course/service/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/main/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/controller/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/entity/Member$MemberBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/entity/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/entity/MemberCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/exception/MemberNotEmailAuthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/exception/MemberStopUserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/model/MemberInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/model/ResetPasswordInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/repository/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/member/service/impl/MemberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/util/PageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zerobase/fastlms/util/PageUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/CourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/MemberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/banner/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/course/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/course/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/member/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/member/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/denied.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/email_auth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/find_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/find_password_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/register_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/reset_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/member/reset_password_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobase/fastlms/FastlmsApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,12 +144,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2537VFjldEF5mnY8RnUWsl3qEhH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -34,18 +160,28 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/member" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/zerobase/fastlms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin/banner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\fastlms\src\main\resources\templates\member" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zerobase.fastlms.course.mapper" />
+      <recent name="com.zerobase.fastlms.course.service" />
+      <recent name="com.zerobase.fastlms.course.dto" />
+      <recent name="com.zerobase.fastlms.admin.common.model" />
+      <recent name="com.zerobase.fastlms.course.model" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="FastlmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fastlms" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zerobase.fastlms.FastlmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,11 +209,37 @@
       <workItem from="1645339290606" duration="1781000" />
       <workItem from="1645343517481" duration="4840000" />
       <workItem from="1645358908116" duration="14528000" />
-      <workItem from="1645412518493" duration="6803000" />
+      <workItem from="1645412518493" duration="7691000" />
+      <workItem from="1645511172596" duration="1407000" />
+      <workItem from="1645631914176" duration="1090000" />
+      <workItem from="1645730986573" duration="370000" />
+      <workItem from="1645731459527" duration="106000" />
+      <workItem from="1645731766209" duration="36000" />
+      <workItem from="1645860105943" duration="2243000" />
+      <workItem from="1645881473782" duration="5060000" />
+      <workItem from="1645952281652" duration="5793000" />
+      <workItem from="1645966025212" duration="6782000" />
+      <workItem from="1646027072058" duration="4743000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="변경" />
   </component>
 </project>

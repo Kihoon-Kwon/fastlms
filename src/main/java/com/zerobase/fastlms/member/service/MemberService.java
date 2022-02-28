@@ -48,7 +48,7 @@ public interface MemberService extends UserDetailsService {
 
     boolean checkResetPassword(String uuid);
 
-    LocalDateTime loginHistory(MemberParam loginDt);
+    //LocalDateTime loginHistory(MemberParam loginDt);
 
 
 
